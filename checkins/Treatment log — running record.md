@@ -94,6 +94,61 @@ Next actions:
 
 ---
 
+## June 2026 — Day 38 on treatment (Month 1+ / 4–8 week lipid recheck)
+Date: 2026-06-02
+SALT: Not scored this session
+Dose: Tofacitinib 5 mg BID — continued
+Adherence: [not reported]
+
+Key labs (Forte Diagnostics, Sample ID: 01183588):
+
+CBC:
+- ALC: 2,190 cells/mm³ ✅ (−150 from baseline; well above threshold)
+- ANC: 3,350 cells/mm³ ✅ (unchanged)
+- Hemoglobin: 15.6 g/dL ✅ (−0.9 g/dL; hold threshold is −2 g/dL)
+- Platelets: 209 ×10³/µL ✅
+- RBC: 5.2 (now within normal range; was 5.7 at baseline)
+- MCV: 84.5 fL (now within normal range; was 79.6 — thalassemia trait pattern still present but indices shifting)
+
+Liver function:
+- ALT: 18.0 U/L ✅ (↑ from 12.0; within range; 3× ULN = 123)
+- AST: 23.0 U/L ✅ (↑ from 17.0; within range; 3× ULN = 111)
+- ALP: 116.0 U/L ✅ (↑ from 83.0; still in range 40–129; +39% rise — monitor trend)
+- GGT: 37.0 U/L ✅ (unchanged)
+- Bilirubin (Total): 1.30 mg/dL ✅ (unchanged — Gilbert's baseline confirmed)
+- Bilirubin (Direct): 0.27 mg/dL (improved from 0.50 at baseline)
+
+Renal:
+- Creatinine: 0.97 mg/dL ✅ (↓ from personal baseline of 1.27; now within lab range; monitoring trigger >1.905 mg/dL)
+- Urea: 47.6 mg/dL ✅ (↑ from 28.0; high-normal but in range; watch next draw)
+- Uric Acid: 3.9 mg/dL ✅
+
+Lipids (post-statin — 5.5 weeks on rosuvastatin 5mg + ezetimibe 10mg):
+- LDL: 110.6 mg/dL ✅ (↓ from 239.8 pre-statin — 53.9% reduction; no escalation indicated)
+- Total Cholesterol: 173.0 mg/dL ✅ (↓ from 325.0 — now normal)
+- HDL: 48 mg/dL ✅ (↓ from 58 — still in range; watch trend)
+- Triglycerides: 72 mg/dL ✅ (↓ from 136)
+- TC/HDL Ratio: 3.6 ✅ (↓ from 5.6 — now within range)
+
+Metabolic:
+- Fasting Glucose: 81 mg/dL ✅
+- HbA1c: 5.5% ⚠️ (↑ from 5.1%; approaching 5.6% high-risk threshold — monitor)
+- TSH: 1.400 mIU/mL ✅
+
+Inflammatory:
+- CRP: 3.8 mg/L ✅ (↓ from 6.0 — consistent with JAK inhibition effect)
+- ESR: 5.0 mm/hr ✅ (↓ from 10)
+
+Urine analysis: All normal ✅
+
+CPK: NOT COLLECTED — add explicitly to Month 3 requisition (2026-07-25)
+
+Threshold crossings: None
+Side effects: Not reported this session
+Phase assessment: On track — lipid response excellent; safety labs clear
+Next action: Month 3 labs (CBC, LFTs, renal, lipids, CPK) + first formal SALT score by 2026-07-25
+---
+
 <!--
 TEMPLATE FOR EACH MONTHLY ENTRY — copy and paste below, fill in, append to bottom:
 

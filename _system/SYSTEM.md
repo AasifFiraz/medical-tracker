@@ -34,6 +34,9 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | ULN values for threshold calculation | SYSTEM.md | ## HARD STOP THRESHOLDS |
 | Monthly summaries and session outputs | Running Record (checkins folder) | Appended monthly |
 | Session prompts and starters | PROMPTS.md | Relevant prompt section |
+| Last labs date | 2026-06-02 |
+| Next labs due | 2026-07-25 (Month 3 — CBC, LFTs, renal, lipids, CPK) |
+| Next milestone | Month 3 labs + first formal SALT score: 2026-07-25 |
 
 ---
 
@@ -113,17 +116,30 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 
 | Test | Latest Value | Date | Change from Baseline | Status |
 |---|---|---|---|---|
-| ALC | 2,340 cells/mm³ | 2026-04-21 | Baseline | ✅ Clear |
-| ANC | 3,350 cells/mm³ | 2026-04-21 | Baseline | ✅ Clear |
-| Hemoglobin | 16.5 g/dL | 2026-04-21 | Baseline | ✅ Clear |
-| ALT | 12.0 U/L | 2026-04-21 | Baseline | ✅ Clear |
-| AST | 17.0 U/L | 2026-04-21 | Baseline | ✅ Clear |
-| Creatinine | 1.27 mg/dL | 2026-04-21 | Baseline | ✅ Personal baseline set |
-| LDL | 239.8 mg/dL | 2026-04-21 | Baseline (pre-statin) | ⚠️ Management plan active |
-| HDL | 58 mg/dL | 2026-04-21 | Baseline | ✅ Clear |
-| Triglycerides | 136 mg/dL | 2026-04-21 | Baseline | ✅ Clear |
-| Fasting Glucose | 77 mg/dL | 2026-04-21 | Baseline | ✅ Clear |
-| CPK | Not collected | — | — | ⚠️ Pending — Month 1 draw |
+| ALC | 2,190 cells/mm³ | 2026-06-02 | −150 from baseline | ✅ Clear |
+| ANC | 3,350 cells/mm³ | 2026-06-02 | Unchanged | ✅ Clear |
+| Hemoglobin | 15.6 g/dL | 2026-06-02 | −0.9 from baseline | ✅ Clear |
+| Platelets | 209 ×10³/µL | 2026-06-02 | −16 from baseline | ✅ Clear |
+| ALT | 18.0 U/L | 2026-06-02 | +6.0 from baseline | ✅ Within range |
+| AST | 23.0 U/L | 2026-06-02 | +6.0 from baseline | ✅ Within range |
+| ALP | 116.0 U/L | 2026-06-02 | +33 from baseline | ✅ In range — monitor trend |
+| GGT | 37.0 U/L | 2026-06-02 | Unchanged | ✅ Clear |
+| Bilirubin (Total) | 1.30 mg/dL | 2026-06-02 | Unchanged | ✅ Consistent with Gilbert's baseline |
+| Bilirubin (Direct) | 0.27 mg/dL | 2026-06-02 | −0.23 from baseline | ✅ Improved |
+| Creatinine | 0.97 mg/dL | 2026-06-02 | −0.30 from personal baseline | ✅ Now within lab range |
+| Urea | 47.6 mg/dL | 2026-06-02 | +19.6 from baseline | ✅ High-normal — monitor |
+| Uric Acid | 3.9 mg/dL | 2026-06-02 | −0.3 from baseline | ✅ Clear |
+| LDL | 110.6 mg/dL | 2026-06-02 | −129.2 (−53.9% from pre-statin baseline) | ✅ Excellent response — no escalation |
+| HDL | 48 mg/dL | 2026-06-02 | −10 from baseline | ✅ Still in range — watch trend |
+| Total Cholesterol | 173.0 mg/dL | 2026-06-02 | −152 from baseline | ✅ Now normal |
+| Triglycerides | 72 mg/dL | 2026-06-02 | −64 from baseline | ✅ Excellent |
+| TC/HDL Ratio | 3.6 | 2026-06-02 | −2.0 from baseline | ✅ Now within range |
+| Fasting Glucose | 81 mg/dL | 2026-06-02 | +4 from baseline | ✅ Normal |
+| HbA1c | 5.5% | 2026-06-02 | +0.4% from baseline | ⚠️ Approaching high-risk threshold (5.6%) — monitor |
+| TSH | 1.400 mIU/mL | 2026-06-02 | +0.381 from baseline | ✅ Normal |
+| CRP | 3.8 mg/L | 2026-06-02 | −2.2 from baseline | ✅ Improving |
+| ESR | 5.0 mm/hr | 2026-06-02 | −5.0 from baseline | ✅ Improving |
+| CPK | Not collected | — | — | ⚠️ Pending — add to Month 3 draw |
 
 ---
 
@@ -230,7 +246,8 @@ Claude must flag immediately if any of these appear in uploaded documents.
 | Annual TB rescreening (IGRA) | 2027-04-25 | [ ] | 12 months from baseline |
 | Annual skin exam | 2027-04-25 | [ ] | NMSC surveillance — full body dermatology exam |
 | Influenza vaccine (inactivated) | Next flu season | [ ] | Annually while on treatment |
-
+| Month 1 labs (CBC, LFTs, renal + CPK) | 2026-05-25 | [x] — collected 2026-06-02 (Day 38) | Late by 8 days; complete except CPK |
+| **4–8 week lipid recheck** | **2026-06-06 to 2026-06-20** | **[x] — collected 2026-06-02** | **4 days before window; clinically valid at Day 38** |
 ---
 
 ## KNOWN SIDE EFFECTS (PERSONAL LOG)
