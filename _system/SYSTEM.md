@@ -2,7 +2,7 @@
 # Treatment: Tofacitinib (Tofacitinib Citrate) for Alopecia Universalis
 # This file lives in Google Drive (_system folder) and is loaded into Claude Project Knowledge.
 # Version: update the version number and date every time this file is edited.
-# Version: 1.1 | Last updated: 2026-04-24
+# Version: 1.2 | Last updated: 2026-06-02
 
 ---
 
@@ -34,9 +34,6 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | ULN values for threshold calculation | SYSTEM.md | ## HARD STOP THRESHOLDS |
 | Monthly summaries and session outputs | Running Record (checkins folder) | Appended monthly |
 | Session prompts and starters | PROMPTS.md | Relevant prompt section |
-| Last labs date | 2026-06-02 |
-| Next labs due | 2026-07-25 (Month 3 — CBC, LFTs, renal, lipids, CPK) |
-| Next milestone | Month 3 labs + first formal SALT score: 2026-07-25 |
 
 ---
 
@@ -56,6 +53,9 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | Last labs date | 2026-04-21 |
 | Next labs due | 2026-05-25 (Month 1 — CBC, LFTs, renal, CPK) |
 | Next milestone | 4–8 week lipid recheck: 2026-06-06 to 2026-06-20 |
+| Last labs date | 2026-06-02 |
+| Next labs due | 2026-07-25 (Month 3 — CBC, LFTs, renal, lipids, CPK) |
+| Next milestone | Month 3 labs + first formal SALT score: 2026-07-25 |
 
 ---
 
@@ -175,7 +175,7 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | | Month 6 | | | |
 | | Month 9 | | | |
 | | Month 12 | | | |
-
+| 2026-06-02 | Day 38 (functional baseline) | 100 (estimated) | 0% | Baseline photo set taken Day 38 — no Day 1 photos recorded; no terminal regrowth expected |
 ---
 
 ## MEDICATION LOG

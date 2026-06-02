@@ -147,6 +147,9 @@ Threshold crossings: None
 Side effects: Not reported this session
 Phase assessment: On track — lipid response excellent; safety labs clear
 Next action: Month 3 labs (CBC, LFTs, renal, lipids, CPK) + first formal SALT score by 2026-07-25
+Photography: Baseline photo set taken 2026-06-02 (Day 38) — 4 angles 
+(vertex, occipital, left lateral, right lateral). Day 1 photos not taken; 
+this set serves as functional baseline. Stored: Drive/SALT_Photos/2026-06-02_Day38_baseline/
 ---
 
 <!--
