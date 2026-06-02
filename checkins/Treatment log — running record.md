@@ -62,7 +62,7 @@ Other:
 - CRP: 6.0 mg/L ✅
 - ESR: 10 mm/hr ✅
 - Urine analysis: All parameters normal ✅
-- CPK: NOT COLLECTED — add to Month 1 draw (2026-05-25)
+- CPK: NOT COLLECTED — carry forward to Month 3 draw (2026-07-25)
 
 Pre-existing variants documented (not adverse effects — established as personal baselines):
 - Mildly elevated bilirubin with normal transaminases — likely Gilbert's syndrome
@@ -113,20 +113,20 @@ CBC:
 Liver function:
 - ALT: 18.0 U/L ✅ (↑ from 12.0; within range; 3× ULN = 123)
 - AST: 23.0 U/L ✅ (↑ from 17.0; within range; 3× ULN = 111)
-- ALP: 116.0 U/L ✅ (↑ from 83.0; still in range 40–129; +39% rise — monitor trend)
+- ALP: 116.0 U/L ⚠️ (↑ from 83.0; still in range 40–129; +39% rise — monitor trend at Month 3)
 - GGT: 37.0 U/L ✅ (unchanged)
 - Bilirubin (Total): 1.30 mg/dL ✅ (unchanged — Gilbert's baseline confirmed)
 - Bilirubin (Direct): 0.27 mg/dL (improved from 0.50 at baseline)
 
 Renal:
 - Creatinine: 0.97 mg/dL ✅ (↓ from personal baseline of 1.27; now within lab range; monitoring trigger >1.905 mg/dL)
-- Urea: 47.6 mg/dL ✅ (↑ from 28.0; high-normal but in range; watch next draw)
+- Urea: 47.6 mg/dL ⚠️ (↑ from 28.0; high-normal but in range; likely hydration — watch next draw)
 - Uric Acid: 3.9 mg/dL ✅
 
 Lipids (post-statin — 5.5 weeks on rosuvastatin 5mg + ezetimibe 10mg):
 - LDL: 110.6 mg/dL ✅ (↓ from 239.8 pre-statin — 53.9% reduction; no escalation indicated)
 - Total Cholesterol: 173.0 mg/dL ✅ (↓ from 325.0 — now normal)
-- HDL: 48 mg/dL ✅ (↓ from 58 — still in range; watch trend)
+- HDL: 48 mg/dL ⚠️ (↓ from 58 — still in range; watch trend)
 - Triglycerides: 72 mg/dL ✅ (↓ from 136)
 - TC/HDL Ratio: 3.6 ✅ (↓ from 5.6 — now within range)
 
@@ -141,15 +141,49 @@ Inflammatory:
 
 Urine analysis: All normal ✅
 
-CPK: NOT COLLECTED — add explicitly to Month 3 requisition (2026-07-25)
+CPK: NOT COLLECTED — must be explicitly requested on Month 3 requisition (2026-07-25)
 
 Threshold crossings: None
 Side effects: Not reported this session
 Phase assessment: On track — lipid response excellent; safety labs clear
 Next action: Month 3 labs (CBC, LFTs, renal, lipids, CPK) + first formal SALT score by 2026-07-25
-Photography: Baseline photo set taken 2026-06-02 (Day 38) — 4 angles 
-(vertex, occipital, left lateral, right lateral). Day 1 photos not taken; 
+Photography: Baseline photo set taken 2026-06-02 (Day 38) — 4 angles
+(vertex, occipital, left lateral, right lateral). Day 1 photos not taken;
 this set serves as functional baseline. Stored: Drive/SALT_Photos/2026-06-02_Day38_baseline/
+
+---
+
+### Session Notes — 2026-06-02 (Advisory session — no new lab data)
+
+**Topics discussed:**
+
+**1. Rosuvastatin + ezetimibe continuation**
+
+Question raised: whether to continue both given LDL now at 110.6.
+
+Conclusion: Continue both, no change. The 110.6 is active drug effect, not a corrected baseline. Stopping both returns LDL to roughly 260–270 mg/dL (untreated ~240 + tofacitinib ~15% addition). The more significant clinical point is that pre-treatment LDL 239.8 and TC 325.0 at age 22 are consistent with familial hypercholesterolemia — in which case rosuvastatin and ezetimibe are long-term therapy independent of tofacitinib, not a temporary side-effect management strategy. FH workup and family lipid history discussion recommended at next clinical visit.
+
+HDL decline (58 → 48) noted but net cardiovascular picture is strongly improved (TC/HDL 5.6 → 3.6). Monitor HDL trend at Month 3.
+
+**2. Actions required before Month 3 (by 2026-07-25)**
+
+Immediate / this week:
+- **HBV Dose 1: URGENT.** 38 days into immunosuppression, series not started. Immune response to vaccination is progressively blunted with ongoing JAK inhibition. Initiate this week without further delay.
+- **Valacyclovir 1000 mg: confirm physical possession.** "Accessible locally" is not sufficient. Zoster prodrome gives 72 hours from rash onset to treatment — tablets must be in hand.
+- **CPK: flag explicitly on Month 3 lab requisition.** Missed at baseline and Day 38. Write it on the form directly; do not rely on standard panel inclusion.
+
+Watch items (no action now — assess at Month 3):
+- ALP: 83 → 116 U/L (+39%). In range but a meaningful trend. If it crosses 129 (ULN) at Month 3, investigate — not dismiss.
+- Urea: 28 → 47.6 mg/dL. Nearly doubled but creatinine improved, suggesting hydration rather than renal cause. Ensure consistent fluid intake before next draw.
+- HbA1c: 5.1 → 5.5%. One reading from the high-risk threshold (5.6%). No medical action warranted, but discretion around refined carbohydrates is sensible. Statin use carries an independent diabetes risk signal.
+- HDL: 58 → 48. Still in range. If it continues declining at Month 3, the TC/HDL ratio improvement begins to erode.
+
+Ongoing between now and Month 3:
+- Drug interaction vigilance: Check any new prescription before taking it. Fluconazole and clarithromycin are the most common ambush medications — both near-double tofacitinib exposure and require temporary dose reduction.
+- Monthly photos: Next set ~Day 68 (~2026-07-05). Same angles, lighting, wet/dry hair state as Day 38 baseline set.
+- Prodrome recognition: Remain active. Unilateral dermatomal burning/tingling/pain = hold tofacitinib and start valacyclovir same day. Do not wait for rash to appear.
+- Vellus fuzz calibration: Fine unpigmented fuzz may appear around Month 2–3. This is not a SALT event and not an efficacy signal — it is a trajectory indicator only. Terminal hair is the only scoring criterion. Do not let early fuzz set expectations that then feel disappointing if growth stalls before Month 6.
+
 ---
 
 <!--

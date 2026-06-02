@@ -2,7 +2,7 @@
 # Treatment: Tofacitinib (Tofacitinib Citrate) for Alopecia Universalis
 # This file lives in Google Drive (_system folder) and is loaded into Claude Project Knowledge.
 # Version: update the version number and date every time this file is edited.
-# Version: 1.2 | Last updated: 2026-06-02
+# Version: 1.3 | Last updated: 2026-06-02
 
 ---
 
@@ -44,17 +44,14 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | Condition | Alopecia Universalis |
 | SALT at baseline | 100 |
 | Treatment | Tofacitinib citrate 5 mg BID |
-| Treatment status | Active — Day 1 commences 2026-04-25 |
+| Treatment status | Active — Day 38 as of 2026-06-02 |
 | Treatment start date | 2026-04-25 |
 | Current phase | Phase 1 — Initiation |
 | Current dose | 5 mg BID |
-| Adjunct therapy | Rosuvastatin 5 mg QD + Ezetimibe 10 mg QD (lipid management, started 2026-04-22) |
-| Last SALT score | 100 — baseline (pre-treatment) |
-| Last labs date | 2026-04-21 |
-| Next labs due | 2026-05-25 (Month 1 — CBC, LFTs, renal, CPK) |
-| Next milestone | 4–8 week lipid recheck: 2026-06-06 to 2026-06-20 |
-| Last labs date | 2026-06-02 |
-| Next labs due | 2026-07-25 (Month 3 — CBC, LFTs, renal, lipids, CPK) |
+| Adjunct therapy | Rosuvastatin 5 mg QD + Ezetimibe 10 mg QD (lipid management, started 2026-04-22) — confirmed continue |
+| Last SALT score | 100 — estimated Day 38 (no terminal regrowth expected; functional baseline photo set taken 2026-06-02) |
+| Last labs date | 2026-06-02 (Day 38 — Forte Diagnostics, Sample ID: 01183588) |
+| Next labs due | 2026-07-25 (Month 3 — CBC, LFTs, renal, lipids, CPK — flag CPK explicitly on requisition) |
 | Next milestone | Month 3 labs + first formal SALT score: 2026-07-25 |
 
 ---
@@ -89,9 +86,9 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | Fasting Glucose | 77 mg/dL | 2026-04-21 | 70–109 mg/dL |
 | HbA1c | 5.1% | 2026-04-21 | Normal <5.7% |
 | TSH | 1.019 mIU/mL | 2026-04-21 | 0.35–5.1 mIU/mL |
-| CPK (Creatine Kinase) | NOT COLLECTED | — | 22–198 U/L — obtain at Month 1 draw |
+| CPK (Creatine Kinase) | NOT COLLECTED | — | 22–198 U/L — obtain at Month 3 draw (2026-07-25); missed at both baseline and Day 38 |
 | HBsAg | Negative | 2026-04-21 | Negative |
-| Anti-HBs (HBsAb) | 8.25 (Non-reactive) | 2026-04-21 | Non-reactive <10 — no protective immunity; HBV vaccination recommended |
+| Anti-HBs (HBsAb) | 8.25 (Non-reactive) | 2026-04-21 | Non-reactive <10 — no protective immunity; HBV vaccination series recommended |
 | Anti-HBc Total | 0.2 (Negative) | 2026-04-21 | Negative <0.7 — no past HBV exposure |
 | HCV Antibody | <1.0 Index (Non-reactive) | 2026-04-21 | Negative |
 | HIV I & II | Negative | 2026-04-21 | Negative |
@@ -105,14 +102,16 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 - **Low MCV (79.6 fL) + elevated RBC (5.7 ×10⁶/µL) + normal RDW (12.3%)** — classic thalassemia trait pattern; hemoglobin normal at 16.5 g/dL; not a treatment concern
 - **MCHC 36.3 g/dL** — marginally above range; consistent with thalassemia trait pattern; not clinically significant
 - **Albumin 5.1 g/dL** — marginally above lab range; not clinically significant
-- **Anti-HBs 8.25** — non-reactive; susceptible to HBV; Hepatitis B vaccination series recommended before or during early treatment
+- **Anti-HBs 8.25** — non-reactive; susceptible to HBV; Hepatitis B vaccination series recommended; HBV Dose 1 is overdue as of Day 38 — initiate immediately
 - **Prior history of muscle discomfort on statins** — informed selection of rosuvastatin (hydrophilic, lower myopathy risk, no CYP3A4 overlap with tofacitinib) over alternatives
-- **CPK not collected at baseline** — add to Month 1 draw (2026-05-25)
+- **CPK not collected at baseline or Month 1** — explicitly request on Month 3 draw (2026-07-25)
+- **Lipid baseline (LDL 239.8, TC 325 at age 22)** — magnitude suggests possible familial hypercholesterolemia; rosuvastatin + ezetimibe are likely long-term therapy independent of tofacitinib; FH workup / family lipid history discussion recommended with treating physician
 
 ---
 
 ## LATEST LAB VALUES
 # Updated after each lab session. Claude populates this from uploaded reports.
+# Last updated: 2026-06-02 (Day 38)
 
 | Test | Latest Value | Date | Change from Baseline | Status |
 |---|---|---|---|---|
@@ -122,24 +121,24 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | Platelets | 209 ×10³/µL | 2026-06-02 | −16 from baseline | ✅ Clear |
 | ALT | 18.0 U/L | 2026-06-02 | +6.0 from baseline | ✅ Within range |
 | AST | 23.0 U/L | 2026-06-02 | +6.0 from baseline | ✅ Within range |
-| ALP | 116.0 U/L | 2026-06-02 | +33 from baseline | ✅ In range — monitor trend |
+| ALP | 116.0 U/L | 2026-06-02 | +33 from baseline (+39%) | ⚠️ In range (ULN 129) — but 39% rise in 6 weeks; watch Month 3; if >129 investigate |
 | GGT | 37.0 U/L | 2026-06-02 | Unchanged | ✅ Clear |
 | Bilirubin (Total) | 1.30 mg/dL | 2026-06-02 | Unchanged | ✅ Consistent with Gilbert's baseline |
 | Bilirubin (Direct) | 0.27 mg/dL | 2026-06-02 | −0.23 from baseline | ✅ Improved |
 | Creatinine | 0.97 mg/dL | 2026-06-02 | −0.30 from personal baseline | ✅ Now within lab range |
-| Urea | 47.6 mg/dL | 2026-06-02 | +19.6 from baseline | ✅ High-normal — monitor |
+| Urea | 47.6 mg/dL | 2026-06-02 | +19.6 from baseline | ⚠️ High-normal — likely hydration; watch Month 3 |
 | Uric Acid | 3.9 mg/dL | 2026-06-02 | −0.3 from baseline | ✅ Clear |
 | LDL | 110.6 mg/dL | 2026-06-02 | −129.2 (−53.9% from pre-statin baseline) | ✅ Excellent response — no escalation |
-| HDL | 48 mg/dL | 2026-06-02 | −10 from baseline | ✅ Still in range — watch trend |
+| HDL | 48 mg/dL | 2026-06-02 | −10 from baseline | ⚠️ Still in range — declining trend; watch Month 3 |
 | Total Cholesterol | 173.0 mg/dL | 2026-06-02 | −152 from baseline | ✅ Now normal |
 | Triglycerides | 72 mg/dL | 2026-06-02 | −64 from baseline | ✅ Excellent |
 | TC/HDL Ratio | 3.6 | 2026-06-02 | −2.0 from baseline | ✅ Now within range |
 | Fasting Glucose | 81 mg/dL | 2026-06-02 | +4 from baseline | ✅ Normal |
-| HbA1c | 5.5% | 2026-06-02 | +0.4% from baseline | ⚠️ Approaching high-risk threshold (5.6%) — monitor |
+| HbA1c | 5.5% | 2026-06-02 | +0.4% from baseline | ⚠️ Approaching 5.6% high-risk threshold — monitor; dietary discretion re refined carbohydrates |
 | TSH | 1.400 mIU/mL | 2026-06-02 | +0.381 from baseline | ✅ Normal |
-| CRP | 3.8 mg/L | 2026-06-02 | −2.2 from baseline | ✅ Improving |
+| CRP | 3.8 mg/L | 2026-06-02 | −2.2 from baseline | ✅ Improving — consistent with JAK inhibition |
 | ESR | 5.0 mm/hr | 2026-06-02 | −5.0 from baseline | ✅ Improving |
-| CPK | Not collected | — | — | ⚠️ Pending — add to Month 3 draw |
+| CPK | Not collected | — | — | ⚠️ Pending — explicitly request on Month 3 draw 2026-07-25 |
 
 ---
 
@@ -170,21 +169,21 @@ or significant baseline values are first filled in. Otherwise update quarterly.
 | Date | Month on Treatment | SALT Score | % Improvement from Baseline | Notes |
 |---|---|---|---|---|
 | 2026-04-25 | Baseline | 100 | 0% | Pre-treatment — Day 1 |
-| | Month 1 | | | |
-| | Month 3 | | | |
-| | Month 6 | | | |
-| | Month 9 | | | |
-| | Month 12 | | | |
-| 2026-06-02 | Day 38 (functional baseline) | 100 (estimated) | 0% | Baseline photo set taken Day 38 — no Day 1 photos recorded; no terminal regrowth expected |
+| 2026-06-02 | Day 38 (functional baseline) | 100 (estimated) | 0% | Baseline photo set taken Day 38 — no Day 1 photos recorded; no terminal regrowth expected at this stage |
+| — | Month 3 (2026-07-25) | — | — | First formal SALT score due |
+| — | Month 6 (2026-10-25) | — | — | First escalation decision point |
+| — | Month 9 | — | — | |
+| — | Month 12 (2027-04-25) | — | — | Full annual assessment |
+
 ---
 
 ## MEDICATION LOG
 
 | Drug | Dose | Frequency | Start Date | Status | Notes |
 |---|---|---|---|---|---|
-| Tofacitinib citrate | 5 mg | BID | 2026-04-25 | Active — Day 1 | Primary treatment |
-| Rosuvastatin (Sun Pharmaceutical) | 5 mg | QD | 2026-04-22 | Active | Lipid management; hydrophilic — lower myopathy risk; no CYP3A4 overlap with tofacitinib |
-| Ezetimibe / MIBE 10 (ATOZ Pharmaceuticals) | 10 mg | QD | 2026-04-22 | Active | Combination with rosuvastatin; chosen given prior statin intolerance and degree of LDL elevation |
+| Tofacitinib citrate | 5 mg | BID | 2026-04-25 | Active | Primary treatment |
+| Rosuvastatin (Sun Pharmaceutical) | 5 mg | QD | 2026-04-22 | Active — confirmed continue | Lipid management; hydrophilic — lower myopathy risk; no CYP3A4 overlap with tofacitinib; likely long-term independent of tofacitinib given pre-treatment LDL magnitude |
+| Ezetimibe / MIBE 10 (ATOZ Pharmaceuticals) | 10 mg | QD | 2026-04-22 | Active — confirmed continue | Combination lipid management; LDL 53.9% reduction at Day 38; no de-escalation indicated |
 | Oral minoxidil | [X] mg | QD | [date] | Not started | Adjunct — to be discussed at Month 3 or Month 6 review |
 
 ### Drugs and substances to avoid
@@ -199,6 +198,11 @@ Claude must flag immediately if any of these appear in uploaded documents.
 | Live vaccines | Varicella, MMR, live influenza, yellow fever, oral typhoid | Contraindicated during therapy |
 | Grapefruit / grapefruit juice | — | CYP3A4 inhibition — avoid excessive consumption |
 
+**⚠️ High-ambush-risk drugs to check before taking anything new:**
+- **Fluconazole** (common antifungal for thrush/skin infections) — near-doubles tofacitinib exposure; requires dose reduction to 5 mg QD for duration
+- **Clarithromycin** (common antibiotic) — strong CYP3A4 inhibitor; same consequence
+- Any new antibiotic, antifungal, or antiviral: check against this list before the first dose
+
 ---
 
 ## VACCINATION LOG
@@ -206,8 +210,8 @@ Claude must flag immediately if any of these appear in uploaded documents.
 | Vaccine | Dose 1 | Dose 2 | Status | Notes |
 |---|---|---|---|---|
 | Shingrix (RZV) — recombinant, non-live | N/A | N/A | Unavailable in Sri Lanka | Zoster risk managed via prodrome education and valacyclovir access — see plan below |
-| Hepatitis B series — 3 dose | Pending | Pending | Not started — recommended before or during early treatment | Anti-HBs 8.25 non-reactive; no protective immunity; Dose 2 at 1 month; Dose 3 at 6 months; check Anti-HBs 4–8 weeks post-series |
-| MMR | Unknown | — | Verify vaccination records | Live vaccine — must be given ≥2 weeks before Day 1 if due; contraindicated once treatment starts |
+| Hepatitis B series — 3 dose | ⚠️ OVERDUE | Pending | Not started — URGENT as of Day 38 | Anti-HBs 8.25 non-reactive; no protective immunity; initiate Dose 1 immediately; Dose 2 at 1 month after Dose 1; Dose 3 at 6 months; check Anti-HBs 4–8 weeks post-series |
+| MMR | Unknown | — | Verify vaccination records | Live vaccine — contraindicated while on tofacitinib; verify historical records only |
 | Varicella | Unknown | — | Verify vaccination records or confirm prior infection | Live vaccine — same restriction as MMR |
 | Influenza (annual, inactivated) | Pending | — | Due next flu season | Safe during therapy — inactivated formulation only; NOT live nasal spray |
 | COVID-19 booster | Pending | — | Per national schedule | Safe during therapy |
@@ -217,7 +221,7 @@ Claude must flag immediately if any of these appear in uploaded documents.
 - **Treatment dose if episode occurs: Valacyclovir 1000 mg TID × 7 days** — must begin within 72 hours of rash onset
 - Do NOT confuse with prophylactic dose (500 mg QD ongoing) — these are different regimens
 - **Tofacitinib action:** Hold from prodrome recognition; resume only after all lesions fully crusted AND 7-day valacyclovir course complete (typically 10–14 days total hold)
-- Valacyclovir 1000 mg tablet access confirmed locally before Day 1 — do not wait until an episode to arrange this
+- **⚠️ Physical possession of valacyclovir 1000 mg tablets not yet confirmed** — must be in hand, not just "accessible locally"
 - Low-dose prophylaxis (valacyclovir 500 mg QD ongoing) is a separate clinical option — discuss with treating doctor
 
 ---
@@ -229,25 +233,26 @@ Claude must flag immediately if any of these appear in uploaded documents.
 | Baseline labs collected | 2026-04-21 | [x] | Forte Diagnostics — all panels complete |
 | IGRA result confirmed negative | 2026-04-24 | [x] | Final mandatory clearance test |
 | Baseline clearance session with Claude | 2026-04-24 | [x] | All mandatory prerequisites satisfied |
-| **Treatment start (Day 1)** | **2026-04-25** | **[ ]** | **Tofacitinib 5 mg BID commences** |
-| Valacyclovir 1000 mg access confirmed locally | Before Day 1 | [ ] | Essential given Shingrix unavailability |
-| MMR / Varicella vaccination status verified | Before Day 1 | [ ] | Check records; administer if due — live vaccines contraindicated after Day 1 |
-| Hepatitis B Dose 1 | Before or near Day 1 | [ ] | Immune response better before immunosuppression |
-| CPK baseline draw | 2026-05-25 | [ ] | Add to Month 1 blood draw |
-| Month 1 labs (CBC, LFTs, renal + CPK) | 2026-05-25 | [ ] | First on-treatment safety check |
-| **4–8 week lipid recheck** | **2026-06-06 to 2026-06-20** | **[ ]** | **Mandatory — captures tofacitinib LDL peak effect + ~6 weeks statin effect** |
-| Hepatitis B Dose 2 | ~2026-05-25 | [ ] | 1 month after Dose 1 |
-| Month 3 labs + first formal SALT score | 2026-07-25 | [ ] | Key efficacy checkpoint |
-| Hepatitis B Dose 3 | ~2026-10-25 | [ ] | 6 months after Dose 1 |
-| Post-HBV series Anti-HBs check | ~2026-12-25 | [ ] | 4–8 weeks after Dose 3 — confirm seroconversion |
+| **Treatment start (Day 1)** | **2026-04-25** | **[x]** | **Tofacitinib 5 mg BID commenced** |
+| Valacyclovir 1000 mg — physical possession confirmed | Before Day 1 | [ ] ⚠️ | Physical confirmation still pending — confirm immediately |
+| MMR / Varicella vaccination status verified | Before Day 1 | [ ] | Check records; live vaccines contraindicated during therapy |
+| **Hepatitis B Dose 1** | **Before or near Day 1** | **[ ] ⚠️ OVERDUE** | **38 days into immunosuppression — initiate this week** |
+| Month 1 labs (CBC, LFTs, renal + CPK) | 2026-05-25 | [x] — collected 2026-06-02 (Day 38) | 8 days late; complete except CPK — CPK missed again |
+| **4–8 week lipid recheck** | **2026-06-06 to 2026-06-20** | **[x] — collected 2026-06-02** | **4 days before window; clinically valid at Day 38** |
+| Functional baseline photo set | 2026-06-02 | [x] | 4 angles taken Day 38; stored: Drive/SALT_Photos/2026-06-02_Day38_baseline/ |
+| Next interim photo set | ~2026-07-05 (Day 68) | [ ] | Match conditions: same angles, lighting, wet vs dry hair |
+| Hepatitis B Dose 2 | ~1 month after Dose 1 | [ ] | Schedule once Dose 1 is given |
+| **Month 3 labs + first formal SALT score** | **2026-07-25** | **[ ]** | **CBC, LFTs, renal, lipids, CPK (explicit on requisition), SALT score** |
+| Hepatitis B Dose 3 | ~6 months after Dose 1 | [ ] | Schedule once Dose 1 is given |
+| Post-HBV series Anti-HBs check | ~4–8 weeks after Dose 3 | [ ] | Confirm seroconversion |
 | Month 6 escalation review | 2026-10-25 | [ ] | Escalate to 10 mg BID if SALT improvement <50% and labs stable |
 | Month 6 full labs | 2026-10-25 | [ ] | All panels |
 | Month 12 full assessment | 2027-04-25 | [ ] | Full labs + SALT + clinical review |
 | Annual TB rescreening (IGRA) | 2027-04-25 | [ ] | 12 months from baseline |
 | Annual skin exam | 2027-04-25 | [ ] | NMSC surveillance — full body dermatology exam |
 | Influenza vaccine (inactivated) | Next flu season | [ ] | Annually while on treatment |
-| Month 1 labs (CBC, LFTs, renal + CPK) | 2026-05-25 | [x] — collected 2026-06-02 (Day 38) | Late by 8 days; complete except CPK |
-| **4–8 week lipid recheck** | **2026-06-06 to 2026-06-20** | **[x] — collected 2026-06-02** | **4 days before window; clinically valid at Day 38** |
+| FH workup / family lipid history discussion | At next clinical visit | [ ] | Pre-treatment LDL 239.8 + TC 325 at age 22 — magnitude suggests possible familial hypercholesterolemia; statins may be lifelong independent of tofacitinib |
+
 ---
 
 ## KNOWN SIDE EFFECTS (PERSONAL LOG)
@@ -272,3 +277,4 @@ Claude must flag immediately if any of these appear in uploaded documents.
 | LDL rise >25% from pre-statin baseline OR >160 mg/dL | Reassess statin plan; repeat lipid panel in 6 weeks |
 | Herpes zoster prodrome (unilateral dermatomal pain/tingling) | Hold tofacitinib; start valacyclovir 1000 mg TID immediately; do not wait for rash |
 | Any hard stop threshold crossed | See HARD STOP THRESHOLDS section — act immediately |
+| Any new medication prescribed by another provider | Cross-check against Drugs and substances to avoid BEFORE first dose |
